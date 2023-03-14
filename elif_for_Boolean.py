@@ -25,3 +25,4 @@ elif Father == 0 and Mother == 1:
 else:
     print("Father is Dwarf and Mother is Dwarf.")
     print("Child is Dwarf.")
+    
