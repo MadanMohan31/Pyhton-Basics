@@ -1,3 +1,5 @@
+# code for simple calculator.
+
 a = int(input("enter the first value : "))
 b = int(input("enter the second value : "))
 
