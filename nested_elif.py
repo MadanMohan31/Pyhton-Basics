@@ -1,4 +1,4 @@
-# simple program for nested if-else statement
+# simple program for nested elif statement
 
 is_male = False
 is_tall = True
