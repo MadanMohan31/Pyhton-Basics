@@ -1,0 +1,57 @@
+# code to read a external file
+
+# we have created 'file.txt' and we are using that file here.
+'''
+r = helps to read the file without any modification.
+w = helps to do any changes in the file
+a = here we can add new information, do any modification.
+'''
+
+
+
+# reading a file
+file = open("file.txt", "r")
+
+print(file.readable()) # to check the file is readable or not.
+print(file.read())
+
+print("")
+
+file.close()
+
+
+
+# print the lines of the document.
+file = open("file.txt", "r")
+
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+
+print("")
+
+file.close()
+
+
+
+# another way of printing lines.
+file = open("file.txt", "r")
+
+for text in file.readlines():
+    
+    print(text)
+
+print("")
+
+file.close()
+
+
+
+# print the line at that index position.
+file = open("file.txt", "r")
+
+print(file.readlines()[1])
+
+file.close()
